@@ -67,11 +67,13 @@ public class MainActivityPresenter {
 
             @Override
             public void onError(Throwable t) {
+                Logger.e("onError called");
 
             }
 
             @Override
             public void onComplete() {
+                Logger.e("onComplete called");
 
             }
         };
@@ -94,7 +96,7 @@ public class MainActivityPresenter {
     {
 
         Gson gson = new Gson();
-        ArrayList<PostsModel> returnPosts = returnPosts=gson.fromJson(jsonString,new TypeToken<List<PostsModel>>(){}.getType());
+        ArrayList<PostsModel> returnPosts = gson.fromJson(jsonString,new TypeToken<List<PostsModel>>(){}.getType());
 
         return returnPosts;
 
