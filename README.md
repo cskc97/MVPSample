@@ -4,11 +4,11 @@
 
 This app basically follows MVP architecture. So, there are models which handle the database or the template that data being obtained from the internet shoud follow. The views handle all the UI related components, whereas the presenter is the link between the model and the ui.
 
-I've used the following libraries - 
-Rx Java 2 - mainly for creating background threads to handle the network calls
-Butter Knife - bindings for views
-Green Dao's Event Bus.
-Google's GSON
+I've used the following libraries - <br>
+<li>Rx Java 2 - mainly for creating background threads to handle the network calls <br>
+<li>Butter Knife - bindings for views <br>
+<li>Green Dao's Event Bus. <br>
+<li>Google's GSON <br>
 
 
 ## Brief Description of how the app works
